@@ -9,29 +9,45 @@ files: /css/demo.css
 # 简单的CSS3动画
 
 [slide]
-<div class="header">
-    <h2>曾经我们使用的方式</h2>
-</div>
-<div class="content">
-    <ul>
-        <li>gif</li>
-        <li>flash</li>
-    </ul>
-</div>
+## 曾经我们使用的方式
+
+- gif {:&.w100.text-left}
+- flash
 
 [slide]
+## 现在我们可以做到 
 
-## 使用背景
-有东西怎么办
+- transform {:&.w100.text-left}
+- transition 
+- animation
+- svg
+- canvas
+- ...
 
 [slide]
-## 使用.class/#id/自定义属性样式
-----
+## 让我们从最基本的动画开始
 
-```javascript
-alert('nodeppt');
-```
+#### 2D--二维的世界 {:.text-left}
 
+- 平移 {:&.fadeIn.text-left.w100}
+<ul class="demo-translate">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+- 缩放
+<ul class="demo-scale-s">
+    <li></li>
+</ul>
+<ul class="demo-scale-l">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 [slide]
 
 ## 主页面样式
