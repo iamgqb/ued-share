@@ -25,7 +25,7 @@ files: /css/demo.css
 - ...
 
 [slide]
-## 让我们从最基本的动画开始
+## 让我们从最基本的动画开始 
 
 #### 2D--二维的世界 {:.text-left}
 
@@ -37,7 +37,7 @@ files: /css/demo.css
     <li></li>
     <li></li>
 </ul>
-- 缩放
+- 缩放 
 <ul class="demo-scale-s">
     <li></li>
 </ul>
@@ -48,12 +48,22 @@ files: /css/demo.css
     <li></li>
     <li></li>
 </ul>
+
+- 渐变 {: style="margin-top:150px"}
+<ul class="demo-gradient">
+    <li>chrome-canary</li>
+</ul>
 [slide]
+##从2D到3D——欺骗眼睛
 
-## 主页面样式
-### ----是上下分界线
-----
+阴影 旋转 景深
 
-nodeppt是基于nodejs写的支持 **Markdown!** 语法的网页PPT，当前版本：0.8.5
+<div class="doge fadeIn">
+    <img src="../img/doge.jpeg" alt="">
+</div>
 
-Github：https://github.com/ksky521/nodePPT
+[slide]
+- 1688的开门demo svgdemo 
+
+- more 下雪的圣诞demo
+

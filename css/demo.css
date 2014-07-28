@@ -134,3 +134,44 @@ h1, h2, h3 {
     0%, 40%, 100% {-webkit-transform: scale(1);}
     20% {-webkit-transform: scaleY(2);}
 }
+
+.demo-gradient li {
+    list-style-type: none;
+    line-height: 50px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    background: url(../img/chrome-canary.png) left top no-repeat;
+    -webkit-background-size: 40px 40px;
+    padding-left: 40px;
+    color: #4fc3f7;
+    overflow: hidden;
+    clear: both;
+}
+.demo-gradient li::before {
+    content: '';
+    position: absolute;
+    margin: 0;
+    left: 0;top: 0;
+    width: 40px;height: 40px;
+    border-radius: 50%;
+            background: -webkit-radial-gradient(rgba(255,255,255,0), rgba(255,255,255,0) 40%, rgba(255,255,255,.9) 70%, rgba(255,255,255,0) 100%);    /*border: 1px solid;*/
+    -webkit-transform: scale(0);
+}
+.demo-gradient li:hover::before {
+    -webkit-transform: scale(12);
+    -webkit-transition: all 3s ease;
+}
+
+div.doge {
+    width: 440px;
+    height: 270px;
+    margin: 100px auto;
+    /*background: url(../img/doge.jpeg);*/
+    -webkit-perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+}
+div.doge img {
+    -webkit-transform: rotateY(-30deg);
+    box-shadow: -5px 5px 15px #5e5e5e;
+}
