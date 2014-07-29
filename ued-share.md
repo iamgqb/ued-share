@@ -63,7 +63,15 @@ files: /css/demo.css
 </div>
 
 [slide]
+## 让它们动起来
 - 1688的开门demo svgdemo 
 
 - more 下雪的圣诞demo
 
+[slide]
+渐进增强 平稳后退
+
+[slide]
+不管如何变化，图片都是一个整体
+http://tympanus.net/Development/ItemTransitions/index.html
+http://www.zbom.com/
