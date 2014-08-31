@@ -119,3 +119,21 @@ http://threejs.org/examples/#webgl_animation_cloth
 http://tympanus.net/Development/ItemTransitions/index.html
 http://www.zbom.com/
 
+[slide]
+## 些许问题
+
+素材加载？
+动画时长？ 
+所谓立意点？ 
+
+扁平化的设计，不为动画而动画
+动画毕竟是为了吸引眼球，引导用户的眼睛落在正确的点上
+
+[slide]
+## 我对css3动画的理解
+
+不是像放电影一样{.fadeIn}
+
+不宜做一长串的动画
+提升交互，吸引眼球
+点缀--简单重复
