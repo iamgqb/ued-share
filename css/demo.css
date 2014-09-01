@@ -12,6 +12,9 @@ h1, h2, h3 {
     color: #333;
     text-shadow: none;
 }
+h2 {
+    margin-bottom: 50px;
+}
 /*thx页竟然没发修改内容！*/
 .thank-you-slide {
     background-color: #E2E2E2 !important;
@@ -26,7 +29,9 @@ h1, h2, h3 {
 .w100 {
     width: 100%;
 }
-
+.img-margin {
+    margin-bottom: 50px;
+}
 
 
 .demo-translate {
@@ -253,6 +258,7 @@ h1, h2, h3 {
 div.demo-box {
     position: relative;
     height: 300px;
+    left: -200px;
 }
 div.demo-simulation-move {
     position: absolute;
