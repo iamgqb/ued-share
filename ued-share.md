@@ -81,12 +81,12 @@ files: /css/demo.css, /js/jquery-2.1.1.min.js, /js/demo.js
     <li>chrome-canary</li>
 </ul>
 [slide]
-##从2D到3D——欺骗眼睛
+##从2D到3D
 
 阴影 旋转 景深
 
 <div class="doge fadeIn">
-    <img src="../img/doge.jpeg" alt="">
+    <img src="/img/doge.jpeg" alt="">
 </div>
 
 [slide] {:.flexbox.vcenter}
