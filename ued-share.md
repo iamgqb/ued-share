@@ -204,9 +204,11 @@ http://www.zbom.com/
 
 4 请勿调整字体的垂直水平缩放，虽然这样看上去是在放大字体。
 
-5 请勿调整字体的基线。  {:.img-margin}
+5 请勿调整字体的基线。
 
-![](/img/detail.png)
+<img src="/img/detail.png" style="vertical-align: top" alt="">
+![](/img/letter.png)
+<img src="/img/line.png" style="vertical-align: top" alt="">
 
 [slide]
 ## 字体--善用文本框 {:.text-left}
@@ -227,7 +229,7 @@ http://www.zbom.com/
 4 若出现2 、3的症状，请务必! 栅格化该(系列)图层
 
 [slide] {:.text-left}
-## 其他
+## 其他--建议
 
 1、混合模式，使用后，请栅格化对应图层，尽量做到，输出给前端的psd的图层中不存在混合模式。
 
@@ -238,3 +240,7 @@ http://www.zbom.com/
 4、快照管理 设计师与前端的不同psd。
 
 5、注释，当你觉得前端在某处可能会曲解原意。
+
+6、工具：markman http://www.getmarkman.com/
+
+http://hao.uisdc.com/ps/
